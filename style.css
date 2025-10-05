@@ -1,0 +1,12 @@
+p{color:red}
+h1{font-family:times new roman,
+arial;
+font-size:40px;
+font-weight:bold;
+color:blue;
+}
+
+
+h1{
+  background: Linear-gradient(to left, blue, lightblue)
+}
