@@ -1,0 +1,50 @@
+body{
+  margin: 0px;
+}
+
+
+header {
+  height: 100px;
+  background: #661d43;
+}
+
+h1 {
+  margin-left: 325px;
+  color: white;
+  font-family: helvetica;
+}
+
+main {
+  height: 1000px;
+  background: white;
+}
+
+img{
+  height: 400px;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+p{
+  text-align: center;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+form{
+  margin: 40px auto;
+  text-align: center;
+  display: 
+}
+
+
+footer{
+  height: 80px;
+  background: #5e1c1c;
+}
+
+h2{
+  color: white;
+  text-align: center;
+}
