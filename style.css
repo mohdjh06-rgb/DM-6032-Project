@@ -1,27 +1,77 @@
-header{
-  height:100px;
-  background: #DD9999;
-}
-h1{
-  font-family: helvetica;
-  color: #152a4d;
-  text-align:center;
-  margin: 20px auto;
-}
 
-main{
-  height:700px;
-}
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
 
+    header {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
 
-footer{
-  background:#152a4d;
-  height:100px;
-}
-p{
-  color:white;
-  margin-left: 20px;
-}
-.table:{
-  background: yellow;
-}
+    nav {
+      background: #555;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    form {
+      max-width: 300px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 6px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+
+    button {
+      margin-top: 10px;
+      width: 100%;
+      padding: 8px;
+      background: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #555;
+    }
+
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+<
