@@ -1,77 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
 
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      scroll-behavior: smooth;
-    }
+header {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
 
-    header {
-      background: #333;
-      color: white;
-      text-align: center;
-      padding: 15px;
-    }
+nav {
+  background: #555;
+  text-align: center;
+  padding: 10px 0;
+}
 
-    nav {
-      background: #555;
-      text-align: center;
-      padding: 10px 0;
-    }
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 10px;
-    }
+nav a:hover {
+  text-decoration: underline;
+}
 
-    nav a:hover {
-      text-decoration: underline;
-    }
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
 
-    section {
-      padding: 40px 20px;
-      text-align: center;
-    }
+form {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: left;
+}
 
-    form {
-      max-width: 300px;
-      margin: 0 auto;
-      text-align: left;
-    }
+label {
+  display: block;
+  margin-top: 10px;
+}
 
-    label {
-      display: block;
-      margin-top: 10px;
-    }
+input, select {
+  width: 100%;
+  padding: 6px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
 
-    input, select {
-      width: 100%;
-      padding: 6px;
-      margin-top: 5px;
-      box-sizing: border-box;
-    }
+button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
 
-    button {
-      margin-top: 10px;
-      width: 100%;
-      padding: 8px;
-      background: #333;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
+button:hover {
+  background: #555;
+}
 
-    button:hover {
-      background: #555;
-    }
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
 
-    footer {
-      text-align: center;
-      background: #333;
-      color: white;
-      padding: 10px;
-      margin-top: 20px;
-    }
-  </style>
-<
+/* Added .hover class */
+.hover {
+  padding: 15px;
+  background: green;
+  color: white;
+}
+
+.hover:hover {
+  background: darkgreen;
+  transform: scale(1.1);
+}
+
